@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camada de Ozónio</title>
+
+    <style>
+        a{
+            display: inline;
+            border: solid 1px black;
+            width: 100px;
+            height: 35px;
+            background: #012727;
+            color: #ffffff;
+            text-align: center;
+            font-size: 14px;
+            transition: all .45s ease
+        }
+    </style>
+
+    <!--Using Javascript Vanilla-->
+    <!--<script lang="javascript" src="./js/requisicaoAssincrona.js"></script>-->
+
+    <!--Using JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script lang="javascript" src="./js/jQueryRequisicaoAssincrona.js"></script>
+
+</head>
+<body>
+    <div>
+        <h4></h4>
+        <h2>Camada de Ozonio</h2>
+        <h4>Por Neusa Paes Leme e Plínio Alvalá – INPE</h4>
+        <div>
+            <!--<a href="#" onclick="requisicao('pagina1.html', 'conteudo')">Pagina 1</a>
+            <a href="#" onclick="requisicao('pagina2.html', 'conteudo')">Pagina 2</a>
+            <a href="#" onclick="requisicao('pagina3.html', 'conteudo')">Pagina 3</a>
+            <a href="#" onclick="requisicao('pagina4.html', 'conteudo')">Pagina 4</a>-->
+            <a href="#" class="btn_load" id="pagina1"> Pagina 1</a>
+            <a href="#" class="btn_load" id="pagina2"> Pagina 2</a>
+            <a href="#" class="btn_load" id="pagina3"> Pagina 3</a>
+            <a href="#" class="btn_load" id="pagina4"> Pagina 4</a>
+        </div>
+        <div id="conteudo">
+
+        </div>
+    </div>
+</body>
+</html>
